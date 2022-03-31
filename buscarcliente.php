@@ -11,7 +11,7 @@ include('conexion.php');
         $row = $res-> fetch_all(MYSQLI_ASSOC);
         echo json_encode($row);
     }else{
-        echo "no se encontro cliente(idcliente)...";
+        echo "no se encontro cliente con ese(idcliente)...";
     }   
 
 
